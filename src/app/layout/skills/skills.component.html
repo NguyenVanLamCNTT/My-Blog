@@ -1,1 +1,30 @@
-<p>skills works!</p>
+<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.1)">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <p class="tieu-de text-center h5">SKILLS</p>
+    </div>
+  </div>
+  <p class="h5 muc">USING NOW :</p>
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-4 col-xl-3 text-center logo" *ngFor="let skill of listSkills">
+      <img class="icon" [src]="skill.image" alt="html5">
+      <p class="text-center name_logo">{{skill.name}}</p>
+    </div>
+  </div>
+  <p class="h5 muc">LEARNING :</p>
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-4 col-xl-3 text-center logo" *ngFor="let skill of listLear">
+      <img class="icon" [src]="skill.image" alt="html5">
+      <p class="text-center name_logo">{{skill.name}}</p>
+    </div>
+  </div>
+  <p class="h5 muc">OTHER SKILLS :</p>
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-4 col-xl-3 text-center logo" *ngFor="let skill of listOther">
+      <img class="icon" [src]="skill.image" alt="html5">
+      <p class="text-center name_logo">{{skill.name}}</p>
+    </div>
+  </div>
+</div>
+

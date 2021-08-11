@@ -1,0 +1,30 @@
+.tieu-de{
+  border: 2px solid black;
+  margin-top: 30px;
+  height: 50px;
+  padding-top: 10px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.icon:hover {
+  transform: scale(1.5);
+}
+.logo {
+  margin-top: 10px;
+}
+.name_logo {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.name_logo:hover{
+  color: blueviolet;
+}
+.muc {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
